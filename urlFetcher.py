@@ -3,7 +3,7 @@
 urlFetcher.py
 多线程下载网页并解析所有可用图片链接，存储到文件
 '''
-import logging ,re, time，sys
+import logging, re, time, sys
 from urlparse import urljoin
 from collections import deque
 
