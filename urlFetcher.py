@@ -3,7 +3,7 @@
 urlFetcher.py
 多线程下载网页并解析所有可用图片链接，存储到文件
 '''
-import logging ,re, time
+import logging ,re, time，sys
 from urlparse import urljoin
 from collections import deque
 
@@ -13,6 +13,8 @@ from threadPool import ThreadPool
 from picFile import PicFile
 
 from bs4 import BeautifulSoup
+
+sys.setrecursionlimit(1000000)#设置递归深度
 
 class Fetch(object):
 
