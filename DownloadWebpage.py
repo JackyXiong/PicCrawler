@@ -1,7 +1,6 @@
 #coding:utf-8
-'''
 
- 
+'''
 DownloadWebpage.py
 下载网页源代码
 '''
